@@ -14,7 +14,7 @@ jobs:
         uses: "TaiStudio/Zipper@master"
         env:
           ZIPPER_IN: "./Map"
-          ZIPPER_OUT: "./Orchidée Saison 2"
+          ZIPPER_OUT: "./Orchidée Saison 1"
           ZIPPER_EXT: ".zip"
       - name: GITHUB RELEASE
         uses: "marvinpinto/action-automatic-releases@latest"
